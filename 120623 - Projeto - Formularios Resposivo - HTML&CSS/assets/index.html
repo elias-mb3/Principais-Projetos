@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Usuário</title>
+    <!--CUSTOMIZAÇÃO-->
+    <link rel="stylesheet" href="./css/style.css">
+    <!--RESPONSIVIDADE-->
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+    <div class="container">
+            <!--IMAGEM-->
+            <div class="imagem">
+                
+                <img src="./img/Privacy policy-rafiki.svg" alt="">
+            </div>
+             <!--FORMULÁRIO-->
+            <div class="form">
+                <form action="#">
+                    <!--FORM HEADER-->
+                    <div class="form-header">
+                        <div class="title">
+                            <h1>Cadastre-se</h1>
+                        </div>
+                        <div class="login-button">
+                            <button><a href="#">Entrar</a></button>
+                        </div>
+                    </div>
+                    <!--INPUT GRUPS-->
+                    <div class="input-grup">
+                        <!--FIRST NAME-->
+                        <div class="input-box">
+                            <label for="first-name">Primeiro nome</label>
+                            <input required id="first-name" name="first-name" type="text" placeholder="Digite seu primeiro nome">
+                        </div>
+                        <!--LAST NAME-->
+                        <div class="input-box">
+                            <label for="last-name">Sobrenome</label>
+                            <input required id="last-name" name="last-name" type="text" placeholder="Digite seu sobrenome">
+                        </div>
+                        <!--EMAIL-->
+                        <div class="input-box">
+                            <label for="email">Email</label>
+                            <input required id="email" name="email" type="email" placeholder="Digite seu email">
+                        </div>
+                        <!--CELULAR-->
+                        <div class="input-box">
+                            <label for="celular">Celular</label>
+                            <input required id="celular" name="celular" type="tel" placeholder="(XX) X XXXX-XXXX">
+                        </div>
+                        <!--SENHA-->
+                        <div class="input-box">
+                            <label for="passworld">Senha</label>
+                            <input required id="passworld" name="passworld" type="password" placeholder="Digite sua senha">
+                        </div>
+                        <!--CONFIRMAR SENHA-->
+                        <div class="input-box">
+                            <label for="conf-passworld">Confirmar senha</label>
+                            <input required id="conf-passworld" name="conf-passworld" type="password" placeholder="Confirme sua senha">
+                        </div>
+                        
+                    </div>
+                     <!--GENERO-->
+                  <div class="gender-inputs">
+                        <!--GENERO TITLE-->
+                        <div class="gender-titles">
+                            <h6>Gênero</h6>
+                        </div>
+                        <!--GENDER GRUP-->
+                        <div class="gender-group">
+                            <!--MASCULINO-->
+                            <div class="gender-input">
+                                <input type="radio" id="male" name="gender">
+                                <label for="male">Masculino</label>
+                            </div>
+                            <!--FEMININO-->
+                            <div class="gender-input">
+                                <input type="radio" id="female" name="gender">
+                                <label for="female">Feminino</label>
+                            </div>
+                            <!--PREFIRO NÃO INFORMAR-->
+                            <div class="gender-input">
+                                <input type="radio" id="noinfo" name="gender">
+                                <label for="noinfo">Prefiro não informar</label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--BOTÃO PRINCIPAL-->
+                    <div class="cotinue-btn">
+                        <button><a href="#">Continuar</a></button>
+                    </div>
+            </div>
+                 
+                    
+                </form>
+            </div> 
+    </div>
+</body>
+</html>
