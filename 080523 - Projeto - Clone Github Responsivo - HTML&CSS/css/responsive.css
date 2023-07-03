@@ -1,0 +1,111 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px){
+    
+    #banner-cta{
+        background-position-x: -200px;
+        background-position-y: 35px;
+        zoom: 0.8;
+    }
+    #main-menu-mobile{
+        display: flex;
+        justify-content: flex-end;
+        color: white;
+        zoom: 1.5;
+    }
+    #main-menu{
+        display: none;
+    }
+    #hero .row2{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    #text-hero{
+        text-align: center;
+    }
+    #form-box{
+        display: none;
+    }
+    #mobile-btn{
+        display: block;
+        width: 100%;
+            
+    }
+    
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+   #banner-cta{
+        background-position-x: -200px;
+        background-position-y: 35px;
+        zoom: 0.8;
+    }
+    #main-menu-mobile{
+        display: flex;
+        justify-content: flex-end;
+        color: white;
+        zoom: 1.5;
+    }
+    #main-menu{
+        display: none;
+    }
+    #hero .row2{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    #text-hero{
+        text-align: center;
+    }
+    #mobile-btn{
+        display: none;    
+    }
+    
+}
+
+/*Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #banner-cta{
+        background-position-x: -180px;
+        background-position-y: 30px;
+    }
+    #main-menu-mobile{
+        display: none;
+    }
+    #mobile-btn{
+        display: none;    
+    } 
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+        #banner-cta{
+        background-position-x: -180px;
+        background-position-y: -20px;
+    }
+    
+    #main-menu-mobile{
+        display: none;
+    }
+    #mobile-btn{
+        display: none;    
+    }   
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px){
+    
+    #main-menu-mobile{
+        display: none;
+    }
+    #banner-cta{
+        background-position-x: -150px;
+        background-position-y: -20px;
+    }
+    #mobile-btn{
+        display: none;    
+    }
+}
