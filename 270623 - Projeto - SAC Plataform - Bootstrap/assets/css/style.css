@@ -1,0 +1,125 @@
+
+.linked{
+    color: black;
+}
+.linked:hover{
+    color: blueviolet;
+}
+
+.btn-color{
+    background-color: hsl(271, 76%, 53%);
+}
+.carde{
+    border: solid 3px #00000086;
+    border-radius: 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+.carde:hover{
+    border: solid 3px blueviolet;
+}
+.text{
+    margin-top: 1rem;
+    width: 80%;
+}
+.icone{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #8a2be2;
+    zoom: 2;
+}
+.text a {
+    text-decoration: none;
+    font-size: large;
+    font-weight: 400;
+    color: #000;
+}
+.hero{
+    margin-bottom: 3rem;
+}
+
+.nave-1 li:hover{
+  color: #8a2be2;
+}
+/*-----------------------------------*\ 
+  #FOOTER
+\*-----------------------------------*/
+.wrapper li { list-style: none; }
+.wrapper a {text-decoration: none;}
+.logo {
+    margin-left: 20px;
+}
+.wrapper ul {padding: 0;}
+.wrapper{margin: 10px;}
+footer { background: hsl(0, 0%, 97%); }
+
+footer .footer {
+  padding: 5rem 15px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  list-style: none;
+}
+
+footer .wrapper { text-align: center; }
+
+.footer-logo { margin-bottom: 10px; }
+
+.footer-text {
+  color: hsl(216, 15%, 52%);
+  max-width: 300px;
+  margin-inline: auto;
+  margin: auto; /* fallback for margin-inline */
+}
+
+.footer-title {
+  color: hsl(218, 23%, 23%);
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+
+.footer-link { color: hsl(216, 15%, 52%); }
+
+.footer-link:hover { color: blueviolet; }
+
+.copyright {
+  color: hsl(211, 25%, 84%);
+  font-size: 0.875rem;
+  text-align: center;
+  padding: 1rem;
+  border-top: 1px solid hsl(214, 32%, 91%);
+}
+
+.copyright a {
+  color: blueviolet;;
+  font-weight: 500;
+}
+
+.copyright a:hover { text-decoration: underline; }
+
+@media (min-width: 650px) {
+     /**
+   * FOOTER 
+   */
+
+  footer .footer {
+    padding: var(--py) 30px;
+    grid-template-columns: 2fr 1fr 1fr;
+  }
+
+  footer .wrapper { text-align: left; }
+
+  .footer-text { margin: 0; }
+}
+
+@media (min-width: 1024px) {
+    /**
+   * FOOTER 
+   */
+
+   .footer-title { font-size: 1.125rem; }
+
+   .footer-link { margin-bottom: 0.3rem; }
+}
